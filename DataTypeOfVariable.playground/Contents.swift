@@ -22,6 +22,19 @@ var number4: Double = 10.234
 var status = true
 var status2:Bool = false
 
+//Array Type
+var myFriends = ["Doremon","Nopita","Sunako","Chisuka"]
+print("myFriends ที่มี index = 1 มีค่าเท่ากับ => \(myFriends[1])")
+
+//การเพิ่มสมาชิกให้กับ Array
+myFriends.append("MasterUNG")
+print(myFriends)
+
+//การลบสมาชิก ของ Array
+myFriends.remove(at: 1)
+print(myFriends)
+
+
 
 
 
